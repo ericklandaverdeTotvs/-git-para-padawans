@@ -118,7 +118,7 @@ bCanc	:= {|| oDlg:End() }
 Activate MsDialog oDlg Center On Init EnchoiceBar( oDlg, bOk, {||oDlg:End()} )
 
 If lOk
-	Processa( {|| fGenAcum()},"Generando acumulados" ,"Aguarde..." )
+	Processa( {|| fGenAcum()},"Generando acumulados erick landaverde" ,"Aguarde..." )
 EndIf
 
 Return
